@@ -1,0 +1,26 @@
+float seconden = 6000;
+float minuten = 0;
+float uren = 0;
+float dagen = 0;
+float jaren = 0;
+
+minuten = seconden / 60;
+minuten *=10;
+minuten = (int) minuten;
+minuten /=10;
+println(minuten);
+uren = minuten / 60;
+uren *=10;
+uren = (int) uren;
+uren /=10;
+println(uren);
+dagen = uren / 24;
+dagen *=1000;
+dagen = (int) dagen;
+dagen /=1000;
+println(dagen);
+jaren = dagen / 365.25;
+jaren *=10000000;
+jaren = (int) jaren;
+jaren /=10000000;
+println(jaren);
