@@ -1,5 +1,5 @@
 String string ="Wat lang zeg!";
-int lengte = 9001;
+int lengte = string.length();
 
 
-println(lengte+" "+string);
+println(lengte+" = "+string);
